@@ -1,0 +1,31 @@
+{
+  "name": "react-notification",
+  "version": "0.0.1",
+  "description": "Growl-like notification with reactjs.",
+  "main": "scripts/index.js",
+  "scripts": {
+    "build": "browserify . | uglifyjs -cm > scripts/bundle.js"
+  },
+  "browserify": {
+    "transform": [
+      "reactify",
+      "envify"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-load-plugins": "^0.8.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "browserify": "^9.0.3",
+    "envify": "^3.4.0",
+    "flux": "^2.0.1",
+    "lodash": "^3.5.0",
+    "node-jsx": "^0.12.4",
+    "react": "^0.13.1",
+    "reactify": "^1.1.0"
+  }
+}

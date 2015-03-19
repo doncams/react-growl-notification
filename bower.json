@@ -1,0 +1,29 @@
+{
+  "name": "react-notification",
+  "version": "0.0.1",
+  "authors": [
+    "Lyndon George Camson <lgcamson@gmail.com>"
+  ],
+  "description": "Growl-like notification implementation.",
+  "main": "index.html",
+  "keywords": [
+    "react-notification",
+    "reactjs",
+    "react",
+    "bootstrap",
+    "growl",
+    "notification"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "font-awesome": "~4.3.0"
+  }
+}
